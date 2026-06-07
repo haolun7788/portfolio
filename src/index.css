@@ -115,7 +115,7 @@ section {
 /* SECTION LABEL */
 .section-label {
   font-family: 'DM Mono', monospace;
-  font-size: 0.72rem;
+  font-size: 1.05rem;
   letter-spacing: 0.1em;
   color: var(--muted);
   text-transform: uppercase;
@@ -133,14 +133,14 @@ section {
 }
 
 /* ABOUT */
-#about p {
+p {
   font-size: 1.05rem;
   line-height: 1.8;
   color: var(--muted);
   margin-bottom: 1.2rem;
 }
 
-#about p strong {
+p strong {
   color: var(--text);
   font-weight: 500;
 }
