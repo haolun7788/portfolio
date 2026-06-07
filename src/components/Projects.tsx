@@ -8,7 +8,7 @@ export default function Projects() {
             <div className={styles.list}>
                 <ProjectItem 
                     title="Portfolio Website"
-                    meta="HTML/CSS - React - Vite - 2025"
+                    meta="HTML/CSS - Typescript - React - Vite - 2025"
                     desc="My Portfolio Website built with React and Vite. Showcases my projects, skills, and experience in a clean and modern design."
                     link="https://haolun.developer.li"
                 />
@@ -20,7 +20,7 @@ export default function Projects() {
                 />
                 <ProjectItem 
                     title="WiDS ASA DataFest @ UBC 2026"
-                    meta="R - 2025"
+                    meta="R - 2026"
                     desc="A 48 Hour datathon from the American Statistical Association hosted by WiDS at UBC where we analyzed patient medical data provided by Stormont Vail Health to uncover insights and build predictive models."
                     link="#"
                 />
