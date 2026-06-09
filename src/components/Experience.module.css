@@ -1,0 +1,13 @@
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.item {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    gap: 2rem;
+    padding: 1.75rem 0;
+    border-bottom: 1px solid var(--subtle)
+}
