@@ -53,6 +53,7 @@
   gap: 1rem;
   flex-wrap: wrap;
   align-items: center;
+  user-select: none;
 }
 
 @media (max-width: 600px) {

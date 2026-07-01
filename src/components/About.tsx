@@ -4,9 +4,9 @@ export default function About() {
     return (
     <section id="about">
         <p className="section-label">About me</p>
-        <p> I'm a <strong>developer</strong> passionate about building reliable, well-crafted systems. Whether it's a backend service, a data pipeline, or a polished interface, I care about the details that make software feel solid.</p>
-        <p> I work comfortably across the stack — from <strong>database design</strong> and query optimization to writing clean application logic in Java and Python. I enjoy problems where precision matters.</p>
-        <p> When I'm not coding, I'm probably tinkering with side projects, exploring business ideas, or hiking some steep trails.</p>
+        <p> I'm a second year Computer Science student at the University of British Columba with a passion for .</p>
+        <p> Right now I'm playing around with all sorts of ideas and projects to expose myself to </p>
+        <p> When I'm not coding, I'm probably tinkering with side projects, hiking trails in the mountains, or travelling the world. Make sure to check back later, more projects are in the works and on the way.</p>
 
         <div style={{ marginTop: '2rem' }}>
             <p className="section-label">Stack</p>
