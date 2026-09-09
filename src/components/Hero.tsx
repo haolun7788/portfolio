@@ -2,8 +2,7 @@ import styles from './Hero.module.css'
 
 export default function Hero() {
   return (
-    <section className={styles.hero}>
-      <section id="top" className={styles.hero}></section>
+    <section id="top" className={styles.hero}>
       <div className={styles.inner}>
         <p className={styles.eyebrow}>Developer · Vancouver, BC</p>
         <h1 className={styles.name}>
