@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /notfound.html
+Sitemap: https://haolun.developer.li/sitemap.xml
