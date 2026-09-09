@@ -4,8 +4,8 @@ export default function About() {
     return (
     <section id="about">
         <p className="section-label">About me</p>
-        <p> I'm a second year Computer Science student at the University of British Columba with a passion for .</p>
-        <p> Right now I'm playing around with all sorts of ideas and projects to expose myself to </p>
+        <p> I'm a <b>second year</b> Computer Science student at the <b>University of British Columbia</b> with a passion for computers and anything tech related.</p>
+        <p> Right now I'm playing around with all sorts of ideas and projects to expose myself to new technologies and concepts.</p>
         <p> When I'm not coding, I'm probably tinkering with side projects, hiking trails in the mountains, or travelling the world. Make sure to check back later, more projects are in the works and on the way.</p>
 
         <div style={{ marginTop: '2rem' }}>
@@ -20,9 +20,9 @@ export default function About() {
                 <span className="skill-tag">React</span>
                 <span className="skill-tag">React Native</span>
                 <span className="skill-tag">Vite</span>
+                <span className="skill-tag">Amazon Web Services (AWS)</span>
                 <span className="skill-tag">PostgreSQL</span>
-                <span className="skill-tag">SQL</span>
-                <span className="skill-tag">Git</span>
+                <span className="skill-tag">Expo.io</span>
                 <span className="skill-tag">REST APIs</span>
             </div>
         </div>

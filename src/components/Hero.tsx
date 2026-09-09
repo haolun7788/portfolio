@@ -15,6 +15,7 @@ export default function Hero() {
         </p>
         <div className={styles.actions}>
             <a href="#projects" className="btn btn-primary">Projects</a>
+            <a href="https://github.com/haolun7788" className="btn btn-primary">GitHub</a>
         </div>
       </div>
     </section>
