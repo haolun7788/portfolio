@@ -19,6 +19,18 @@ export default function Projects() {
                     link="mailto:haolun7788@gmail.com"
                 />
                 <ProjectItem 
+                    title="calcli"
+                    meta="C++ - Catch2 - Github Actions - September 2026"
+                    desc="A C++ command-line tool that creates Google Calendar events from natural-language input (e.g. calcli add 'Exam' Friday 2:30 1 hour), with a unit-tested parser for weekdays, clock times, and durations."
+                    link="https://github.com/haolun7788/calcli"
+                />
+                <ProjectItem 
+                    title="Amazon Robotics Hackathon 2026 @ UBC"
+                    meta="Git - Python - September 2026"
+                    desc="Designed and implemented a Djikstra-based dynamic routing algorithm in Python for warehouse drive units in a team of 4."
+                    link="https://github.com/haolun7788/AmazonArHackathon2026"
+                />
+                <ProjectItem 
                     title="NeXt-List [Access by Request]"
                     meta="Java - JUnit 5 - Test Driven Development - Jan 2026"
                     desc="An app that promotes mental wellness by encouraging users to take time to enjoy life in the moment. Built with React Native with Expo.io and Supabase database in PostgreSQL."
