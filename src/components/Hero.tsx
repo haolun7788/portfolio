@@ -10,8 +10,7 @@ export default function Hero() {
           <em className={styles.em}>@haolun7788</em>
         </h1>
         <p className={styles.desc}>
-          I <strong>design</strong> and <strong>build</strong> software with a focus on clean architecture,
-          data-driven systems, and thoughtful user experiences.
+          Aspiring software engineer / AI researcher.
         </p>
         <div className={styles.actions}>
             <a href="#projects" className="btn btn-primary">Projects</a>
