@@ -23,11 +23,28 @@ export interface Project {
 
 export const projects: Project[] = [
     {
+        title: "actually",
+        date: "Oct 2026",
+        stack: ["TypeScript", "React Native", "Expo", "Supabase", "Vercel"],
+        desc: "A mobile and web app that helps keep track of small debts and IOUs between friends. Created in React Native on Expo with a Supabase backend and web hosted on Vercel.",
+        link: "https://actually.haolun.li/",
+        media: {
+            src: "/media/Actually.mp4",
+            alt: "The actually app's screens scrolling past: tracking who owes what, logging an item, settling up, guest links, trends and friends.",
+            kind: "video",
+        }
+    },
+    {
         title: "calcli",
         date: "Sep 2026",
         stack: ["C++", "Catch2", "GitHub Actions"],
         desc: "A C++ command-line tool that creates Google Calendar events from natural-language input (e.g. calcli add 'Exam' Friday 2:30 1 hour), with a unit-tested parser for weekdays, clock times, and durations.",
         link: "https://github.com/haolun7788/calcli",
+        media: {
+            src: "/media/CalcliExample.gif",
+            alt: "A GIF showing calcli being used to add an event to Google Calendar.",
+            kind: "image",
+        }
     },
     {
         title: "Amazon Robotics Hackathon 2026 @ UBC",
@@ -35,6 +52,11 @@ export const projects: Project[] = [
         stack: ["Python", "Git"],
         desc: "Designed and implemented a Dijkstra-based dynamic routing algorithm in Python for warehouse drive units in a team of 4.",
         link: "https://github.com/haolun7788/AmazonArHackathon2026",
+        media: {
+            src: "/media/AmazonRobotics.mp4",
+            alt: "A video of our algorithm working on a warehouse map, showing the drive units moving along the optimal paths.",
+            kind: "video",
+        }
     },
     {
         title: "Portfolio Website",
@@ -42,6 +64,11 @@ export const projects: Project[] = [
         stack: ["TypeScript", "React", "Vite", "HTML/CSS"],
         desc: "This site. Built with React and Vite to showcase my projects, skills, and experience in a clean and modern design.",
         link: "https://github.com/haolun7788/portfolio",
+        media: {
+            src: "/media/PortfolioIntro.mp4",
+            alt: "The portfolio's intro animation: contour lines fade in as the name and menu rise into view.",
+            kind: "video",
+        }
     },
     {
         title: "Brezi",
@@ -50,6 +77,10 @@ export const projects: Project[] = [
         desc: "An app that promotes mental wellness by encouraging users to take time to enjoy life in the moment. Built with React Native with Expo and a Supabase database in PostgreSQL.",
         link: "mailto:haolun7788@gmail.com?subject=Brezi%20access",
         onRequest: true,
+        media: {
+            src: "/media/Brezi.png",
+            alt: "Three Brezi screens: the welcome screen, the home screen with today's missions and score, and a profile.",
+        }
     },
     {
         title: "WiDS ASA DataFest @ UBC 2026",
@@ -57,6 +88,11 @@ export const projects: Project[] = [
         stack: ["R"],
         desc: "A 48-hour datathon from the American Statistical Association hosted by WiDS at UBC, where we analyzed patient medical data provided by Stormont Vail Health to uncover insights and build predictive models.",
         link: "https://canva.link/z7lkf13tuzcor14",
+        media: {
+            src: "/media/AsaDatathon.png",
+            alt: "A screenshot of our team's datathon presentation, showing a summary of our analysis and predictive models.",
+            kind: "image",
+        }
     },
     {
         title: "NeXt-List",

@@ -14,13 +14,13 @@
 }
 
 /* Side panel on desktop */
+/* Nearly full width, leaving a strip of the map visible on the left */
 .panel {
   position: fixed;
   z-index: 20;
   top: 14px;
   right: 14px;
   bottom: 14px;
-  /* Nearly full width, leaving a strip of the map visible on the left */
   left: clamp(24px, 5vw, 140px);
   display: flex;
   flex-direction: column;

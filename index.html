@@ -15,8 +15,7 @@
     <meta name="robots" content="index, follow">
     <meta name="msvalidate.01" content="F94F95612F54988228717F1FF77FDF6A" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#070c17" media="(prefers-color-scheme: dark)" />
-    <meta name="theme-color" content="#eef3fa" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#eef3fa" />
     <meta name="description" content="Student at the University of British Columbia. Based in Vancouver, BC." />
 
     <meta property="og:type" content="website" />
@@ -56,11 +55,11 @@
 
     <title>Hao Lun Li - Portfolio</title>
 
-    <!-- Apply saved/system theme before first paint to avoid a flash -->
+    <!-- Apply the saved theme (light by default) before first paint to avoid a flash -->
     <script>
       try {
         var t = localStorage.getItem('theme');
-        if (t !== 'light' && t !== 'dark') t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        if (t !== 'dark') t = 'light';
         document.documentElement.dataset.theme = t;
       } catch (e) {}
     </script>
