@@ -59,18 +59,6 @@ export const projects: Project[] = [
         }
     },
     {
-        title: "Portfolio Website",
-        date: "Jun 2026",
-        stack: ["TypeScript", "React", "Vite", "HTML/CSS"],
-        desc: "This site. Built with React and Vite to showcase my projects, skills, and experience in a clean and modern design.",
-        link: "https://github.com/haolun7788/portfolio",
-        media: {
-            src: "/media/PortfolioIntro.mp4",
-            alt: "The portfolio's intro animation: contour lines fade in as the name and menu rise into view.",
-            kind: "video",
-        }
-    },
-    {
         title: "Brezi",
         date: "Apr 2026",
         stack: ["Java", "React Native", "Expo", "PostgreSQL"],
