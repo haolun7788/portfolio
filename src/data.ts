@@ -24,7 +24,7 @@ export interface Project {
 export const projects: Project[] = [
     {
         title: "actually",
-        date: "Oct 2026",
+        date: "Apr 2026",
         stack: ["TypeScript", "React Native", "Expo", "Supabase", "Vercel"],
         desc: "A mobile and web app that helps keep track of small debts and IOUs between friends. Created in React Native on Expo with a Supabase backend and web hosted on Vercel.",
         link: "https://actually.haolun.li/",
@@ -61,7 +61,7 @@ export const projects: Project[] = [
     {
         title: "Brezi",
         date: "Apr 2026",
-        stack: ["Java", "React Native", "Expo", "PostgreSQL"],
+        stack: ["TypeScript", "React Native", "Expo", "PostgreSQL"],
         desc: "An app that promotes mental wellness by encouraging users to take time to enjoy life in the moment. Built with React Native with Expo and a Supabase database in PostgreSQL.",
         link: "mailto:haolun7788@gmail.com?subject=Brezi%20access",
         onRequest: true,
@@ -86,9 +86,14 @@ export const projects: Project[] = [
         title: "NeXt-List",
         date: "Jan 2026",
         stack: ["Java", "JUnit 5", "TDD"],
-        desc: "A task list application written in Java and built test-first with JUnit 5.",
+        desc: "A task list application written in Java and built through test driven development with JUnit 5. Achieved 100% code coverage and implemented over 6 user stories. The project was part of the CPSC 210 course at UBC.",
         link: "mailto:haolun7788@gmail.com?subject=NeXt-List%20access",
         onRequest: true,
+        media: {
+            src: "/media/CPSC210.png",
+            alt: "CPSC 210, the class I took where this project was part of the coursework.",
+            kind: "image",
+        }
     },
     {
         title: "HackCamp 2025",
@@ -96,6 +101,11 @@ export const projects: Project[] = [
         stack: ["C#", "JavaScript", "Razor Pages"],
         desc: "Designed a cross-platform statistical engine by embedding an ASP.NET Core Razor Pages backend inside an Electron.NET shell that computes Pearson R-values across unrelated datasets and automatically notes pairings.",
         link: "https://github.com/neondev1/correlation",
+        media: {
+            src: "/media/HackCamp2025.png",
+            alt: "HackCamp 2025, the hackathon where this project was created.",
+            kind: "image",
+        }
     },
 ]
 
@@ -106,7 +116,11 @@ export const stack: Record<string, string[]> = {
 }
 
 // Shown in the About card; leave null for the placeholder
-export const portrait: Media | null = null
+export const portrait: Media = {
+    src: "/media/Selfie.jpg",
+    alt: "A selfie of me during the Amazon Robotics Hackathon at UBC.",
+    kind: "image",
+}
 
 export const links = {
     email: "haolun7788@gmail.com",

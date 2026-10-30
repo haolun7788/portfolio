@@ -48,15 +48,15 @@ export default function Intro({ open, onOpen, theme, onToggleTheme }: IntroProps
 
             <section className={styles.hero}>
                 <p className={`${styles.eyebrow} ${styles.reveal}`} style={delay(0.6)}>
-                    Software developer · Computer Science at UBC
+                    Software Engineer · Computer Science at UBC
                 </p>
                 <h1 className={styles.name}>
                     <span className={styles.line}><span style={delay(0.8)}>Hao Lun</span></span>
                     <span className={styles.line}><span style={delay(1.0)}><em>Li</em></span></span>
                 </h1>
                 <p className={`${styles.lede} ${styles.reveal}`} style={delay(1.5)}>
-                    Aspiring software engineer and AI researcher, building things to learn
-                    how they work, from command-line tools to mobile apps.
+                    Computer science student at UBC focused on software engineering and machine learning.
+                    I like taking things apart to see how they work, then building my own version.
                 </p>
 
                 <nav className={styles.menu} aria-label="Sections">
